@@ -1,7 +1,8 @@
 {
   "name": "craft-pwd",
-  "version": "0.1.0",
-  "description": "Consolar command to generate a password hash for Craft",
+  "version": "0.2.0",
+  "description": "Generates a password hash for Craft",
+  "preferGlobal": true,
   "main": "./index.js",
   "bin": {
     "craft-pwd": "./cli.js"
@@ -11,7 +12,7 @@
   },
   "keywords": [
     "pwd",
-    "crafter",
+    "craft",
     "consolar"
   ],
   "author": {

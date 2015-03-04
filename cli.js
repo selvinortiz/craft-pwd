@@ -6,5 +6,6 @@ var cmd = require('./');
 cli.setConsoleCommand('craft-pwd');
 
 cli.init({
+  name: '',
   basePath: __dirname
 });
