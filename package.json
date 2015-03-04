@@ -1,6 +1,6 @@
 {
   "name": "craft-pwd",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Generates a password hash for Craft",
   "preferGlobal": true,
   "main": "./index.js",
@@ -10,11 +10,19 @@
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:selvinortiz/craft-pwd.git"
+  },
   "keywords": [
     "pwd",
     "craft",
     "consolar"
   ],
+  "bugs": {
+    "url": "https://github.com/selvinortiz/craft-pwd/issues"
+  },
+  "homepage": "https://github.com/selvinortiz/craft-pwd",
   "author": {
     "name": "Selvin Ortiz",
     "email": "selvin@selv.in",
@@ -26,6 +34,7 @@
     "mocha": "^2.1.0"
   },
   "dependencies": {
+    "consolar": "^0.4.1",
     "request": "^2.53.0"
   }
 }
