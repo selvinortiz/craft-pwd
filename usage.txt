@@ -1,0 +1,2 @@
+
+{{ 'Usage:'|secondary }} {% if name %}{{ name|lower|primary }} {% endif %}{{ cmd|accent }} password

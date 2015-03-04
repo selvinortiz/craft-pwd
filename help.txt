@@ -1,0 +1,4 @@
+
+{{ name|primary }} {{ version|secondary }}
+
+{{ 'Usage:'|secondary }} {{ cmd|accent }} password
