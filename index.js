@@ -19,7 +19,7 @@ Cmd.prototype.run = function() {
   var self = this;
 
   req.post(
-    pkg.pgenUrl || 'http://selv.in/pgen/generate',
+    pkg.pgenUrl || 'https://selv.in/pgen/generate',
     {
       form: {
         password: this.password
